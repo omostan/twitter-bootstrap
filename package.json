@@ -1,21 +1,24 @@
 {
-    "name": "@omostan/twitter-bootstrap"
-  , "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
-  , "version": "3.4.0"
-  , "keywords": ["bootstrap", "css"]
-  , "homepage": "https://getbootstrap.com/docs/3.4/"
-  , "author": "Twitter Inc."
-  , "scripts": { "test": "make test" }
-  , "repository": {
-      "type": "git"
-    , "url": "https://github.com/twbs/bootstrap.git"
-  }
-  , "licenses": [
+  "name": "@omostan/twitter-bootstrap",
+  "version": "3.4.1",
+  "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+  "author": "Twitter Inc.",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/twbs/bootstrap.git"
+  },
+  "homepage": "https://getbootstrap.com/docs/3.4/",
+  "main": "bootstrap.min.js",
+  "keywords": [
+	"bootstrap",
+	"css"
+  ],
+  "licenses": [
     {
-        "type": "MIT License"
-      , "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
+      "type": "MIT License",
+      "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
     }
-  ]
-  , "devDependencies": {
+  ],
+  "devDependencies": {
   }
 }
